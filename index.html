@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Login page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <div class="box">
+		<form class="Formulaire">
+			<h1>se connecter</h1>
+				<input type="email" placeholder="votre adresse e-mail" pattern=".+@kalanso.com" title="votre mail doit terminer par @kalanso.com" required>
+			 	<input type="password" placeholder="Mot de passe" maxlength="8" 
+				 pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" required>
+					<p>
+				
+				  		<input type="checkbox" name="souvenir" id="souvenir_de_moi">
+                        <label for ="souvenir_de_moi">Se Souvenir de moi</label>
+					</p>
+				<input type="submit" name="Envoyer" value="Envoyer">
+				<input type="reset" name="Réinitialiser" value="Réinitialiser">
+
+		</form>
+			
+	</div>
+</body>  
+</html>
